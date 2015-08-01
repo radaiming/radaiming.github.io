@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I spend lots of time in front of computer, and always feeling time goes too fast, maybe I should start logging sth.
+I spend lots of time in front of computer, and always feel that time goes too fast, maybe I should start logging sth.
