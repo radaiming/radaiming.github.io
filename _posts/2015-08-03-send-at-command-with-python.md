@@ -62,7 +62,7 @@ def main():
     except (serial.SerialException, OSError, EOFError):
         pass
     finally:
-        if('ser' in locals() and isinstance(ser, serial.serialposix.Serial)):
+        if 'ser' in locals() and isinstance(ser, serial.serialposix.Serial):
             ser.close()
 
 if __name__ == '__main__':
