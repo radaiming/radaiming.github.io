@@ -1,5 +1,5 @@
 # Site settings
-title: radaiming's nonsense
+title: radaiming's log
 description: > # this means to ignore newlines until "baseurl:"
     nothing special
 baseurl: "" # the subpath of your site, e.g. /blog/
