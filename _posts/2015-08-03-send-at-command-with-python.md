@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "send AT command with Python"
-categories: linux
+categories: python
 ---
 
 Many 3G modems expose one or several serial ports to linux system, some of them could response to AT commands, you could use picocom to test, like:
