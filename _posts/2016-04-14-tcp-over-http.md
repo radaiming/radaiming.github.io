@@ -30,3 +30,5 @@ categories: python
 
 
 现在用这脚本做出了翻墙路由，跑下来还算好用，只是性能上还是比 C 版本明显差，可惜并不会写 C。实在不行用 go 写，还能直接编译成 arm binary，方便日后往 Android 上靠。
+
+Update: [go 版本](https://github.com/radaiming/tcp-over-http/blob/master/tcp_over_http.go)已经完成，每秒处理的数据吞吐量比 C 版本高约 3 倍。
