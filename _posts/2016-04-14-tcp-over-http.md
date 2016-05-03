@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TCP over HTTP"
-categories: python
+categories: network
 ---
 
 现在手上主要的梯子是 http 代理，速度也还行，唯一的问题是 Android 上用起来不方便。ProxyDroid 多年不更新，还要 root，Drony 虽然能工作，但毕竟不是为翻墙设计的，想切换代理都不方便。所以在有人做出来之前只能自己先试试了。对 Android 毕竟不熟，就先在 Linux 上用 Python 先来一遍，先创建 tun 设备，然后路由表把流量指向它，脚本从 tun 设备读，转给 http 代理。嗯说起来比较简单，但踩了很多坑，记几个大的吧。
